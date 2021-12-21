@@ -1,12 +1,19 @@
-/**
- * Naming variable:
- * 1. Don't use reserved keyword
- * 2. Don't use symbols #, @
- * 3. Don't use space
- * 4. Don't start with number
- */
+// string data type
+let foo = "Belajar data types";
+let bar = `javascript part 2`;
+let gabungan = foo + " " + bar;
 
-let title = "Naming variable"
-let my_country = "Indonesia" // snake case
-let myCountry = "Indonesia" // camle case
-let MyCountry = "Indonesia" // pascal case
+console.log(foo);
+console.log(bar);
+console.log(gabungan);
+
+// number data type
+let score1 = 55.5;
+let score2 = 40;
+let totalScore = score1 + score2 + 80;
+console.log(score1);
+console.log(totalScore);
+
+// boolean data type
+let isLoggedIn = false;
+console.log(isLoggedIn);
