@@ -1,19 +1,34 @@
-// string data type
-let foo = "Belajar data types";
-let bar = `javascript part 2`;
-let gabungan = foo + " " + bar;
+// create an array
+let students = ["Udin", "Kosasih", "Jhon"];
+console.log(students);
 
-console.log(foo);
-console.log(bar);
-console.log(gabungan);
+let numbers = [1, 2, 3, 4];
+console.log(numbers);
 
-// number data type
-let score1 = 55.5;
-let score2 = 40;
-let totalScore = score1 + score2 + 80;
-console.log(score1);
-console.log(totalScore);
 
-// boolean data type
-let isLoggedIn = false;
-console.log(isLoggedIn);
+// get length of array
+console.log(students.length);
+
+// get specific item on array by index
+console.log(students[0]);
+
+// Add an item to the end of an Array
+students.push("Doe");
+console.log(students);
+
+// Remove an item from the end of an Array
+students.pop();
+console.log(students);
+
+// Multidimensional array
+let board = [
+	[1, 2, 3, 4, 5, 6, 7, 8],
+	[1, 2, 3, 4, 5, 6, 7, 8],
+	[1, 2, 3, 4, 5, 6, 7, 8],
+	[1, 2, 3, 4, 5, 6, 7, 8],
+	[1, 2, 3, 4, 5, 6, 7, 8],
+	[1, 2, 3, 4, 5, 6, 7, 8],
+	[1, 2, 3, 4, 5, 6, 7, 8],
+];
+
+console.log(board);
