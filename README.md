@@ -44,7 +44,7 @@
 - Number
 - String
 - Boolean
-- Array
+- Array - [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - Object
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
